@@ -78,7 +78,7 @@ gem "html-pipeline-auto-correct"
 gem "redcarpet"
 gem "rouge"
 
-gem "sidekiq"
+gem "sidekiq", ">= 7.0.0"
 gem "sidekiq-cron"
 
 gem "social-share-button"
