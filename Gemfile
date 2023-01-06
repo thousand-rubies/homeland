@@ -60,7 +60,7 @@ gem "form-select"
 gem "kaminari"
 
 gem "exception-track"
-gem "pghero"
+gem "pghero", ">= 3.1.0"
 
 # Cache
 gem "connection_pool", "~> 2.2"
