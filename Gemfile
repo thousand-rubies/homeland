@@ -5,7 +5,7 @@ source "https://rubygems.org"
 git_source(:github) { |repo_name| "https://github.com/#{repo_name}.git" }
 
 gem "jbuilder"
-gem "rails", "~> 7.0"
+gem "rails", "~> 7.0", ">= 7.0.4.3"
 gem "rails_autolink"
 gem "sass-rails"
 gem "shakapacker"
@@ -21,7 +21,7 @@ gem "devise"
 gem "devise-encryptable"
 gem "doorkeeper"
 gem "doorkeeper-i18n"
-gem "omniauth", "~> 1.x"
+gem "omniauth", "~> 1.9", ">= 1.9.2"
 gem "omniauth-github"
 gem "omniauth-rails_csrf_protection"
 gem "omniauth-twitter"
@@ -47,7 +47,7 @@ gem "mini_magick", require: false
 
 # Captcha
 gem "recaptcha"
-gem "rucaptcha"
+gem "rucaptcha", ">= 3.0.2"
 
 # Notification
 gem "notifications"
