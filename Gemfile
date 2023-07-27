@@ -31,7 +31,7 @@ gem "dotenv-rails"
 gem "jieba-rb"
 
 gem "http_accept_language"
-gem "rack-attack"
+gem "rack-attack", ">= 6.7.0"
 gem "rails-i18n"
 gem "twemoji"
 
