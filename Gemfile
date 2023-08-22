@@ -87,7 +87,7 @@ gem "social-share-button"
 gem "postmark"
 gem "postmark-rails"
 
-gem "puma"
+gem "puma", ">= 6.3.1"
 
 # API cors
 gem "rack-cors", require: "rack/cors"
