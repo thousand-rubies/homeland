@@ -53,7 +53,7 @@ gem "rucaptcha"
 gem "notifications"
 gem "ruby-push-notifications"
 
-gem "action-store"
+gem "action-store", ">= 1.1.3"
 
 gem "enumize"
 gem "form-select"
