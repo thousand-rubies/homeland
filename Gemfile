@@ -5,10 +5,10 @@ source "https://rubygems.org"
 git_source(:github) { |repo_name| "https://github.com/#{repo_name}.git" }
 
 gem "jbuilder"
-gem "rails", "~> 7.0"
-gem "rails_autolink"
+gem "rails", "~> 7.1", ">= 7.1.0"
+gem "rails_autolink", ">= 1.1.8"
 gem "sass-rails"
-gem "shakapacker"
+gem "shakapacker", ">= 6.5.3"
 gem "turbolinks"
 gem "uglifier"
 
@@ -17,13 +17,13 @@ gem "view_component"
 gem "pg"
 
 gem "cancancan"
-gem "devise"
+gem "devise", ">= 4.9.0"
 gem "devise-encryptable"
-gem "doorkeeper"
-gem "doorkeeper-i18n"
+gem "doorkeeper", ">= 5.6.1"
+gem "doorkeeper-i18n", ">= 5.2.5"
 gem "omniauth", "~> 1.x"
 gem "omniauth-github"
-gem "omniauth-rails_csrf_protection"
+gem "omniauth-rails_csrf_protection", ">= 1.0.0"
 gem "omniauth-twitter"
 gem "omniauth-wechat-oauth2"
 
@@ -32,7 +32,7 @@ gem "jieba-rb"
 
 gem "http_accept_language"
 gem "rack-attack"
-gem "rails-i18n"
+gem "rails-i18n", ">= 7.0.6"
 gem "twemoji"
 
 # Uploader
@@ -47,7 +47,7 @@ gem "mini_magick", require: false
 
 # Captcha
 gem "recaptcha"
-gem "rucaptcha"
+gem "rucaptcha", ">= 3.0.2"
 
 # Notification
 gem "notifications"
@@ -69,7 +69,7 @@ gem "redis-namespace"
 gem "second_level_cache"
 
 # Setting
-gem "rails-settings-cached"
+gem "rails-settings-cached", ">= 2.8.3"
 
 # HTML Pipeline
 gem "autocorrect-rb"
@@ -107,7 +107,7 @@ group :development, :test do
 
   gem "factory_bot_rails"
   gem "faraday-rack"
-  gem "minitest-spec-rails"
+  gem "minitest-spec-rails", ">= 6.2.0"
   gem "mocha"
 
   gem "standard"
