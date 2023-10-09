@@ -5,7 +5,7 @@ source "https://rubygems.org"
 git_source(:github) { |repo_name| "https://github.com/#{repo_name}.git" }
 
 gem "jbuilder"
-gem "rails", "~> 7.0"
+gem "rails", "~> 7.1", ">= 7.1.0"
 gem "rails_autolink"
 gem "sass-rails"
 gem "shakapacker"
@@ -53,7 +53,7 @@ gem "rucaptcha"
 gem "notifications"
 gem "ruby-push-notifications"
 
-gem "action-store"
+gem "action-store", ">= 1.1.3"
 
 gem "enumize"
 gem "form-select"
