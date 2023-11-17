@@ -105,7 +105,7 @@ end
 group :development, :test do
   gem "listen"
 
-  gem "factory_bot_rails"
+  gem "factory_bot_rails", ">= 6.3.0"
   gem "faraday-rack"
   gem "minitest-spec-rails"
   gem "mocha"
