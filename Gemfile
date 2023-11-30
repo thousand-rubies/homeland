@@ -36,11 +36,11 @@ gem "rails-i18n"
 gem "twemoji"
 
 # Uploader
-gem "carrierwave"
+gem "carrierwave", ">= 2.2.5"
 # Aliyun / Upyun / Qiniu
 gem "carrierwave-aliyun"
 gem "carrierwave-qiniu"
-gem "carrierwave-upyun"
+gem "carrierwave-upyun", ">= 2.0.0"
 gem "qiniu"
 
 gem "mini_magick", require: false
