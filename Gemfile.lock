@@ -106,7 +106,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
-    concurrent-ruby (1.1.10)
+    concurrent-ruby (1.2.2)
     connection_pool (2.3.0)
     crass (1.0.6)
     devise (4.8.1)
@@ -169,7 +169,7 @@ GEM
     http-cookie (1.0.5)
       domain_name (~> 0.5)
     http_accept_language (2.1.1)
-    i18n (1.12.0)
+    i18n (1.14.1)
       concurrent-ruby (~> 1.0)
     image_processing (1.12.2)
       mini_magick (>= 4.9.5, < 5)
@@ -211,7 +211,8 @@ GEM
     mime-types-data (3.2022.0105)
     mini_magick (4.11.0)
     mini_mime (1.1.2)
-    minitest (5.16.3)
+    mini_portile2 (2.8.5)
+    minitest (5.20.0)
     minitest-spec-rails (6.1.0)
       minitest (>= 5.0)
       railties (>= 4.1)
@@ -234,6 +235,9 @@ GEM
       timeout
     netrc (0.11.0)
     nio4r (2.5.8)
+    nokogiri (1.13.8)
+      mini_portile2 (~> 2.8.0)
+      racc (~> 1.4)
     nokogiri (1.13.8-arm64-darwin)
       racc (~> 1.4)
     notifications (1.1.0)
@@ -383,6 +387,9 @@ GEM
     ruby-vips (2.1.4)
       ffi (~> 1.12)
     ruby2_keywords (0.0.5)
+    rucaptcha (3.0.2)
+      railties (>= 3.2)
+      rb_sys (>= 0.9.18)
     rucaptcha (3.0.2-arm64-darwin)
       railties (>= 3.2)
       rb_sys (>= 0.9.18)
@@ -438,7 +445,7 @@ GEM
     turbolinks-source (5.2.0)
     twemoji (3.1.8)
       nokogiri (~> 1.6)
-    tzinfo (2.0.5)
+    tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
@@ -447,8 +454,8 @@ GEM
     unf_ext (0.0.8.2)
     unicode-display_width (2.2.0)
     version_gem (1.1.0)
-    view_component (2.71.0)
-      activesupport (>= 5.0.0, < 8.0)
+    view_component (3.9.0)
+      activesupport (>= 5.2.0, < 8.0)
       concurrent-ruby (~> 1.0)
       method_source (~> 1.0)
     warden (1.2.9)
@@ -460,6 +467,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-21
+  ruby
 
 DEPENDENCIES
   action-store
@@ -530,7 +538,7 @@ DEPENDENCIES
   turbolinks
   twemoji
   uglifier
-  view_component
+  view_component (>= 3.9.0)
 
 BUNDLED WITH
    2.3.22
