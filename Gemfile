@@ -5,8 +5,8 @@ source "https://rubygems.org"
 git_source(:github) { |repo_name| "https://github.com/#{repo_name}.git" }
 
 gem "jbuilder"
-gem "rails", "~> 7.0"
-gem "rails_autolink"
+gem "rails", "~> 7.0", ">= 7.0.8.3"
+gem "rails_autolink", ">= 1.1.7"
 gem "sass-rails"
 gem "shakapacker"
 gem "turbolinks"
@@ -53,7 +53,7 @@ gem "rucaptcha"
 gem "notifications"
 gem "ruby-push-notifications"
 
-gem "action-store"
+gem "action-store", ">= 1.1.3"
 
 gem "enumize"
 gem "form-select"
@@ -69,7 +69,7 @@ gem "redis-namespace"
 gem "second_level_cache"
 
 # Setting
-gem "rails-settings-cached"
+gem "rails-settings-cached", ">= 2.8.3"
 
 # HTML Pipeline
 gem "autocorrect-rb"
