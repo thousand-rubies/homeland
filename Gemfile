@@ -94,7 +94,7 @@ gem "rack-cors", require: "rack/cors"
 
 gem "bootsnap"
 
-gem "puma_worker_killer"
+gem "puma_worker_killer", ">= 1.0.0"
 
 group :development do
   gem "byebug"
