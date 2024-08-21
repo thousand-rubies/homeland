@@ -79,7 +79,7 @@ gem "redcarpet"
 gem "rouge"
 
 gem "sidekiq"
-gem "sidekiq-cron"
+gem "sidekiq-cron", ">= 1.8.0"
 
 gem "social-share-button"
 
