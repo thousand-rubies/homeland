@@ -110,5 +110,5 @@ group :development, :test do
   gem "minitest-spec-rails"
   gem "mocha"
 
-  gem "standard"
+  gem "standard", ">= 1.41.0"
 end
