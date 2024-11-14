@@ -32,7 +32,7 @@ gem "jieba-rb"
 
 gem "http_accept_language"
 gem "rack-attack"
-gem "rails-i18n"
+gem "rails-i18n", ">= 8.0.0"
 gem "twemoji"
 
 # Uploader
@@ -79,7 +79,7 @@ gem "redcarpet"
 gem "rouge"
 
 gem "sidekiq"
-gem "sidekiq-cron"
+gem "sidekiq-cron", ">= 2.0.0"
 
 gem "social-share-button"
 
