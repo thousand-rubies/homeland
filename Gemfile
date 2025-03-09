@@ -6,7 +6,7 @@ git_source(:github) { |repo_name| "https://github.com/#{repo_name}.git" }
 
 gem "jbuilder"
 gem "rails", "~> 7.0"
-gem "rails_autolink"
+gem "rails_autolink", ">= 1.1.8"
 gem "sass-rails"
 gem "shakapacker"
 gem "turbolinks"
@@ -25,7 +25,7 @@ gem "omniauth", "~> 1.x"
 gem "omniauth-github"
 gem "omniauth-rails_csrf_protection"
 gem "omniauth-twitter"
-gem "omniauth-wechat-oauth2"
+gem "omniauth-wechat-oauth2", ">= 0.2.3"
 
 gem "dotenv-rails"
 gem "jieba-rb"
@@ -69,7 +69,7 @@ gem "redis-namespace"
 gem "second_level_cache"
 
 # Setting
-gem "rails-settings-cached"
+gem "rails-settings-cached", ">= 2.8.3"
 
 # HTML Pipeline
 gem "autocorrect-rb"
@@ -78,7 +78,7 @@ gem "html-pipeline-auto-correct"
 gem "redcarpet"
 gem "rouge"
 
-gem "sidekiq"
+gem "sidekiq", ">= 8.0.0"
 gem "sidekiq-cron"
 
 gem "social-share-button"
