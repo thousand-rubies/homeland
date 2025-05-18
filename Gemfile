@@ -90,7 +90,7 @@ gem "postmark-rails"
 gem "puma"
 
 # API cors
-gem "rack-cors", require: "rack/cors"
+gem "rack-cors", ">= 3.0.0", require: "rack/cors"
 
 gem "bootsnap"
 
